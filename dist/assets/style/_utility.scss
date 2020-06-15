@@ -1,0 +1,114 @@
+// position
+.pos-r {
+  position: relative;
+}
+.pos-a {
+  position: absolute;
+}
+// font 
+.bold {
+  font-weight: $font-weight-bold;
+}
+.italic{
+  font-style: italic;
+}
+
+.h1{
+  font-size: 48px;  //48
+}
+.h2{
+  font-size: 32px;  //32
+}
+.h3{
+  font-size: 28px;  //28
+}
+.h4{
+  font-size: 24px;  //24
+}
+.h5{
+  font-size: 20px;  //20
+}
+.h6{
+  font-size: 16px;  //16
+}
+.fz-subscribe {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+}
+.fz-48h64 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+}
+.fz-24{
+  font-size: 24px;
+}
+.fz-24h33 {
+  font-size: 24px;
+  line-height: 33px;
+}
+.fz-24h36 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.fz-20h33 {
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: bold;
+}
+.fz-16h24 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.fz-14h24 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.fz-14h21 {
+  font-size: 14px;
+  line-height: 21px;
+}
+.fz-12h24 {
+  font-size: 12px;
+  line-height: 24px;
+}
+// margin-padding
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.pl-16 {
+  padding-left: 16px;
+}
+.px-45{
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.px-85{
+  padding-left: 85px;
+  padding-right: 85px;
+}
+.py-18{
+  padding-top:18px;
+  padding-bottom:18px;
+}
+.py-32{
+  padding-top:32px;
+  padding-bottom:32px;
+}
+.mr-25 {
+  margin-right: 25px;
+}
+.p-85{
+  padding:85px;
+}

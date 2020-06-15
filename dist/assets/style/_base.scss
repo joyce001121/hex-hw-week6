@@ -1,0 +1,31 @@
+// _base.scss 
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5 {
+    line-height: 1.33;
+}
+a {
+    color: #121212;
+    text-decoration: none;
+}
+a:hover {
+    color: #121212;
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}
+

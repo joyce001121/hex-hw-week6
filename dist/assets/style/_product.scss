@@ -1,0 +1,43 @@
+.product-menu {
+  background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  a{ color: rgba(0, 0, 0, 0.6);  }
+}
+.card-columns {
+  column-count: 2 ;
+}
+.card-body small{
+  color: rgba(0, 0, 0, 0.38);
+}
+.onsale{
+  font-size: 14px;
+  position: absolute;
+  right: 16px;
+  top:16px;
+}
+.card-columns .card img {
+  width: 161px;
+  height: 161px;  
+  object-fit: cover;
+}
+.pagenation {
+  font-size: 24px;
+  font-weight: normal;
+  .underline {
+    text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .product-menu {
+    font-size: 24px;
+  }
+  .card-columns {
+    column-count: 3 ;
+  }
+  .card-columns .card img {
+    width: 100%;
+    height: 100%;
+  }
+}
